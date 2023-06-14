@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: chartreuse;
+    align-items: center;
+    padding: 2%;
+    position: sticky;
+    top: 5px;
+}
+
+.navbar .col1 a {
+    font-size: 230%;
+    text-decoration: none;
+    border: 2px solid rebeccapurple;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: crimson;
+}
+
+.navbar .col2 a {
+
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 180%;
+    border: 2px solid red;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.navbar .col2 ul {
+    list-style: none;
+    
+}
+
+.navbar .col2 li {
+    display: inline-block;
+    padding: 10px;
+    box-sizing: content-box;
+    
+}
+
+/* Big Image As Background */
+
+.pic {
+    background-image: url(./images/sec2a.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 400%;
+    font-weight: 5px;
+    text-align: center;
+}
+
+/* Styling for Row3 */
+.row3 {
+    display: flex;
+}
+
+.row3 img {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    margin: 20px;
+    border: 2px solid red;
+}
+
+#row3p {
+    height: 500px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border: 2px solid red;
+    font-size: 320%;
+    padding: 10px;
+    text-align: center;
+}
+
+.row4 {
+    display: flex;
+    height: 500px;
+    column-gap: 20px;
+    width: 2000px;
+    margin-top: 0px;
+}
+
+#row4col1 {
+    width: 700px;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 500px;
+
+}
+
+#row4col1 img {
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+#row4col2 {
+    width: 830px;
+}
+
+#row4col2 img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+
+/* Footer seession */
+.row5 {
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+.row5 p {
+    font-size: 200%;
+    text-align: center;
+    align-items: center;
+    padding: 23px;
+}
+
+
+/* CONTACT SESSION */
+.contactinfo {
+    padding: 20px;
+    background-color: crimson;
+    align-self: auto;
+    
+    align-content: center;
+    color: burlywood;
+    font-weight: bolder;
+    font-size: 120%;
+    background-position: center;
+    text-align-last: center;
+}
+
+
+/* About Session */
+.about {
+    
+    justify-content: center;
+    text-align-last: center;
+    padding: 60px;
+    font-size: 300%;
+    background-color: aqua;
+}
